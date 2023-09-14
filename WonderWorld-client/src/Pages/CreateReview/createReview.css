@@ -1,0 +1,32 @@
+.formConfiguration {
+    text-align: center;
+}
+
+.createReviewField {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.inputCreateReviewConfiguration {
+    width: 250px;
+    height: 40px;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.createBtn {
+    border-radius: 20px;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    margin-left: 47%;
+    margin-top: 10%;
+}
+
+.positionForm{
+    position: relative;
+    left: 40%;
+}

@@ -1,0 +1,61 @@
+/* navbar.css */
+.header {
+    background-color: #fbd1a2 ; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px; /* Adjust padding as needed */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow if desired */
+  }
+  
+  .navbarLeft {
+    float:left; /* Pushes the navbar to the left */
+  }
+  .navbarRight{
+    float: right;
+    position: relative;
+      bottom: 45px;
+  }
+  
+  .navbarBtn {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    background-color: #007bff; /* Set your desired button background color */
+    border: 1px solid #007bff; /* Set your desired border color */
+    border-radius: 5px;
+    margin-right: 10px; /* Adjust spacing between buttons */
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    text-decoration: none;
+  }
+  
+  .navbarBtn:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+    border-color: #0056b3; /* Change border color on hover */
+  }
+  
+  .mainTitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: rgb(54, 34, 10);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .name{
+    color: #007bff;
+    padding-top: 1%;
+  }
+
+  @keyframes titleAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.05);
+    }
+  }
+  

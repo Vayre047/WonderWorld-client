@@ -1,0 +1,20 @@
+.footerDetailer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(224 242 254) 0%, rgb(152, 210, 238) 100%);
+}
+
+.socialLink{
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.paragraphPosition{
+    margin-top: 5px;
+}

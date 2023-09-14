@@ -1,0 +1,22 @@
+.imageConfiguration{
+    width: 22rem;
+    height: 18rem;
+    border-radius: 8px;
+}
+
+.wonderCard{
+    filter: grayscale(100%);
+    align-items: center
+}
+.wonderCard:hover{
+filter: grayscale(0);
+}
+
+.linkTitleCard{
+    text-decoration: none;
+}
+
+.positionContainer{
+    position: relative;
+    left: 18%;
+}

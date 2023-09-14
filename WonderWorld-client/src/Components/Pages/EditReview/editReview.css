@@ -1,0 +1,18 @@
+.formReviewContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.editBtn{
+    width: 200px;
+    margin-left: 44.5%;
+    margin-top: 1%;
+}
+
+.textAreaConfiguration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 41.8%;
+}
